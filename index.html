@@ -5,9 +5,24 @@
 		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Counter App</title>
+		<link rel="stylesheet" href="./style.css" />
 		<script defer type="module" src="/main.js"></script>
 	</head>
 	<body>
-		<div id="app"></div>
+		<div id="app">
+			<a href="https://vitejs.dev" target="_blank">
+				<img src="./public/vite.svg" class="logo" alt="Vite logo" />
+			</a>
+			<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+				<img src="./public/javascript.svg" class="logo vanilla" alt="JavaScript logo" />
+			</a>
+			<h1 class="counter-app-display">0</h1>
+			<div class="card">
+				<button class="decrease-btn">Decrease</button>
+				<button class="reset-btn">Reset</button>
+				<button class="increase-btn">Increase</button>
+			</div>
+			<p class="read-the-docs">Click on the Vite logo to learn more</p>
+		</div>
 	</body>
 </html>
