@@ -11,3 +11,7 @@ export function setupCounter(element) {
 const decreaseBtn = document.querySelector('.decrease-btn');
 const resetBtn = document.querySelector('.reset-btn');
 const increaseBtn = document.querySelector('.increase-btn');
+
+const counterAppDisplay = document.querySelector('.counter-app-display');
+
+let count = 0;
