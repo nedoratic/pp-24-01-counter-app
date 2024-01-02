@@ -1,7 +1,7 @@
-import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
+import './style.css';
+import javascriptLogo from './javascript.svg';
+import viteLogo from '/vite.svg';
+import { setupCounter } from './counter.js';
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -11,14 +11,17 @@ document.querySelector('#app').innerHTML = `
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
     </a>
-    <h1>Hello Vite!</h1>
+    <h1>0</h1>
     <div class="card">
       <button id="counter" type="button"></button>
+      <button class="decrease-btn">Decrease</button>
+      <button class="reset-btn">Reset</button>
+      <button class="increase-btn">Increase</button>
     </div>
     <p class="read-the-docs">
       Click on the Vite logo to learn more
     </p>
   </div>
-`
+`;
 
-setupCounter(document.querySelector('#counter'))
+setupCounter(document.querySelector('#counter'));
