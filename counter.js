@@ -8,10 +8,10 @@ export function setupCounter(element) {
 	setCounter(0);
 }
 
-const decreaseBtn = document.querySelector('.decrease-btn');
-const resetBtn = document.querySelector('.reset-btn');
-const increaseBtn = document.querySelector('.increase-btn');
+export const decreaseBtn = document.querySelector('.decrease-btn');
+export const resetBtn = document.querySelector('.reset-btn');
+export const increaseBtn = document.querySelector('.increase-btn');
 
-const counterAppDisplay = document.querySelector('.counter-app-display');
+export const counterAppDisplay = document.querySelector('.counter-app-display');
 
-let count = 0;
+export let count = 0;
